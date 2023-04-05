@@ -11,7 +11,7 @@ export default function Main(props) {
  
 
   const getData = async()=>{
-    const response = await Axios.get("http://localhost:5000/getMainNames")
+    const response = await Axios.get("https://courseback.onrender.com/getMainNames")
     setData(response.data)
   }
 
