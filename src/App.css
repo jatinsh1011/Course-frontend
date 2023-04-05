@@ -1,38 +1,223 @@
-.App {
-  text-align: center;
+* {
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+  height: 60px !important;
+  width: 100% !important;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(33, 42, 57, 0.15) !important;
+  border-top: solid black 2px;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding-left: 220px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.headerin {
+  width: 100%;
+  padding: 0 40px;
   display: flex;
-  flex-direction: column;
+}
+
+.headertitle {
+  color: rgba(33, 42, 57, 0.5) !important;
+  position: relative;
+  top: 15px;
+  font-weight: 700;
+
+}
+
+.header-right {
+  padding: 0 !important;
+  display: flex;
   align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  height: 50px;
+  margin: 0;
+  text-decoration: none !important;
+  padding: 0;
+  gap: 1rem;
+
+}
+
+.right {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  align-self: flex-end;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+
+
+
+
+
+.second {
+  padding: 20px 10% 10px;
+  display: block;
+  margin-left: 220px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.secondcontentbox {
+  position: relative;
+  color: var(--baseColor) !important;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  display: flex;
+}
+
+.secondcontent {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.jaja {
+  color: var(--baseColor) !important;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  padding-right: 20px;
+}
+
+.line-second {
+  height: 2px !important;
+  width: 1000px;
+  margin-left: 370px;
+  margin-top: 0;
+  display: relative;
+  bottom: 200px;
+}
+
+
+
+
+
+.coll-para {
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #828282;
+
+
+}
+
+.coll-img {
+  height: 25px;
+}
+
+.coll-time {
+  position: relative;
+  left: 820px;
+}
+
+
+.main {
+  background-color: #fefefe;
+  border: solid lightgray 2px;
+  box-shadow: 0px 5px 5px 0px rgba(33, 42, 57, 0.15) !important;
+
+  position: relative;
+  left: 370px;
+  top: 50px;
+  /* padding: 30px 10% !important; */
+
+  margin: 0 !important;
+
+  width: 1000px;
+  /* height: 500px; */
+  border-radius: 5px;
+
+}
+
+.mainImage {
+  height: 175px;
+}
+
+.courseimage {
+
+
+
+  /* right: 150px; */
+  position: relative;
+  top: 15px;
+  left: 15px;
+  height: 150px;
+  border-radius: 5px;
+}
+
+
+.width-100 {
+  width: 100% !important
+}
+
+.coursename {
+  display: inline-block;
+  /* background-color: aqua; */
+  height: 1px;
+  padding: 15px;
+  padding-bottom: 4 0px;
+
+}
+
+.box-shad {
+
+
+  background-color: #fefefe;
+
+  border-bottom: 2px solid lightgray;
+
+  box-shadow: 10px 10px 0px 0px rgba(33, 42, 57, 0.15) !important;
+
+}
+
+
+.courseDetails {
+  font-size: 18px;
+  font-weight: 550;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: black;
+
+}
+
+.numberLec {
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #828282;
+
+}
+
+.button-expand {
+  position: relative;
+  left: 850px;
+  bottom: 20px;
+
+
+}
+
+button {
+  border-radius: 100px !important;
+}
+
+.bi {
+  border: 0;
 }
